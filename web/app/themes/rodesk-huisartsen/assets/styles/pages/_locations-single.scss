@@ -1,0 +1,48 @@
+#single-location {
+	padding: 60px 0;	
+	ul {
+		padding: 0;
+		list-style-type: none;		
+	}
+	.title-header {
+		text-transform: uppercase;
+		font-weight: bold;
+		border-bottom: 1px solid #999999;
+		color: #999999;
+		width: 100%;
+		display: inline-block;
+		padding-top: 12px;
+	}
+	.location {
+		background-color: #f1f1f1;
+		text-align: center;
+		.location-img {
+			margin: 24px 0;
+		}
+		.location-info {
+			background-color: #ffffff;
+			text-align: left;
+			padding: 24px;
+			li.active-doctor {
+				font-weight: bold;
+				background-color: #f1f1f1;
+				margin-top: 6px;
+				padding-left: 6px;
+			}
+			.specialism {
+				font-style: italic;
+			}
+		}
+	}
+	.business-hours {
+		padding: 24px;
+		background-color: #f1f1f1;
+		.day,
+		.hours {
+			width: 50%;
+			display: inline-block;
+			float: left;
+			border-bottom: 1px solid #d4d4d4;
+		}
+	}
+}
